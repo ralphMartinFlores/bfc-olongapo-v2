@@ -1,0 +1,728 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+img {
+  height: auto;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+/* Navbar styles */
+nav {
+  background-color: #271c19;
+  color: #fffffe;
+  padding: 2rem 1.5rem;
+}
+.😀 {
+  display: none;
+}
+.😳 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* End */
+/* Hero Section styles */
+.😄 {
+  background-color: #271c19;
+  color: #fffffe;
+  padding: 1.25rem 1.25rem 3.125rem 1.25rem;
+}
+.😁 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.1875rem, 5vw, 3.125rem);
+  margin-bottom: 0.625rem;
+}
+.😁 h2 {
+  color: #fff3ec;
+  font-size: 1rem;
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+}
+.😆 {
+  padding: 0.625rem 1.875rem;
+  outline: none;
+  background-color: #ffc0ad;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  border: none;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #271c19;
+  text-decoration: none;
+}
+.😆:hover,
+.😋:hover {
+  background-color: #ff997a;
+}
+.😅 {
+  display: none;
+}
+/* End */
+/* Products section styles */
+.😚 {
+  padding: 3.125rem 1.25rem;
+  text-align: center;
+}
+.😂 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
+  text-align: center;
+  color: #271c19;
+}
+.🤣 {
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.😇 {
+  margin: 1.875rem auto;
+}
+.🙃 {
+  background-color: #271c19;
+  border-radius: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+.😉 {
+  width: 100%;
+}
+.😌 {
+  padding: 2.5rem 1.25rem;
+  text-align: left;
+}
+.😌 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: #fffffe;
+  font-size: 1.875rem;
+}
+.🥰 {
+  background-color: #55423d;
+  width: fit-content;
+  padding: 0.3125rem 1.25rem;
+  border-radius: 6.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: #fffffe;
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+.😘 {
+  max-width: 2rem;
+}
+.😗 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+.😙 {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.😙 p {
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  color: #fffffe;
+}
+.😋 {
+  border: none;
+  background-color: #ffc0ad;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.625rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+/* End */
+/* Mission Section container */
+.😛 {
+  padding: 3.125rem 1.25rem;
+  background-color: #271c19;
+}
+.😛 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.875rem, 5vw, 3.125rem);
+  color: #fffffe;
+  margin-bottom: 0.625rem;
+}
+.😛 p {
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  color: #fff3ec;
+}
+/* End */
+/* Branch highlight section styles */
+.😝 {
+  padding: 3.125rem 1.25rem;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/images/coffee-beans-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.😜 {
+  font-size: clamp(2.1875rem, 5vw, 4.0625rem);
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: #fffffe;
+}
+.🤪 {
+  font-family: "Lora", sans-serif;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  text-align: justify;
+  color: #fffffe;
+}
+/* End */
+/* Services section styles */
+.😎 {
+  padding: 3.125rem 1.25rem;
+}
+.🧐 {
+  background-color: #271c19;
+  border-radius: 0.625rem;
+  padding: 0.9375rem 0.9375rem 1.25rem 0.9375rem;
+  margin-bottom: 1.25rem;
+}
+.🤓 {
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  color: #fff3ec;
+  margin-top: 0.9375rem;
+}
+/* End */
+/* Proposition styles */
+.🥳 {
+  padding: 3.125rem 1.25rem;
+  position: relative;
+  background-image: url("assets/images/proposition-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.😏 {
+  font-size: clamp(1.875rem, 5vw, 4.6875rem);
+  color: #fffffe;
+  font-family: "Poppins", sans-serif;
+}
+/* End */
+/* Testimonials styles */
+.😒 {
+  padding: 3.125rem 1.25rem;
+}
+.😞 {
+  display: none;
+}
+.😔 {
+  background-color: #271c19;
+  border-radius: 0.625rem;
+  color: #fff3ec;
+  padding: 0.9375rem;
+  margin-bottom: 1.25rem;
+}
+.😟 {
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 0.625rem;
+}
+.😕 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+/* End */
+/* Contact info section styles */
+.☹️ {
+  max-width: 2rem;
+}
+.😣 {
+  display: flex;
+  align-items: center;
+  gap: 0.9375rem;
+  border: 0.0625rem solid #e4e4e4;
+  padding: 0.9375rem;
+  border-radius: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+.😣 a,
+.😣 p {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: #271c19;
+}
+.😖,
+.😥 {
+  padding: 3.125rem 1.25rem;
+}
+/* End */
+/* Before footer images section styles */
+.😩 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* End */
+/* Footer section styles */
+.🥺 {
+  background-color: #271c19;
+  color: #fffffe;
+  text-align: center;
+  padding: 3.125rem 1.25rem;
+}
+.🥺 img {
+  margin: 0 auto;
+  margin-bottom: 0.625rem;
+}
+.😢 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 1.5625rem;
+  margin-bottom: 0.625rem;
+}
+.😭 {
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #fff3ec;
+  text-decoration: none;
+  border-bottom: 0.125rem solid transparent;
+  transition: all 0.3s;
+}
+.😭:hover {
+  border-bottom: 0.125rem solid #fffffe;
+}
+/* End */
+/* Hamburger menu button styles */
+/* Hide the default checkbox */
+.hamburger {
+  cursor: pointer;
+}
+.hamburger input {
+  display: none;
+}
+.hamburger svg {
+  /* The size of the SVG defines the overall size */
+  height: 3em;
+  /* Define the transition for transforming the SVG */
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line {
+  fill: none;
+  stroke: white;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  /* Define the transition for transforming the Stroke */
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line-top-bottom {
+  stroke-dasharray: 12 63;
+}
+.hamburger input:checked + svg {
+  transform: rotate(-45deg);
+}
+.hamburger input:checked + svg .line-top-bottom {
+  stroke-dasharray: 20 300;
+  stroke-dashoffset: -32.42;
+}
+/* End */
+/* Container styles */
+/* Media query for small screens */
+@media (min-width: 36rem) {
+  .container {
+    max-width: 33.75rem;
+    margin: 0 auto;
+  }
+}
+/* Media query for medium screens */
+@media (min-width: 48rem) {
+  .container {
+    max-width: 45rem;
+  }
+}
+/* Media query for large screens */
+@media (min-width: 62rem) {
+  .container {
+    max-width: 60rem;
+  }
+}
+/* Media query for extra large screens */
+@media (min-width: 75rem) {
+  .container {
+    max-width: 71.25rem;
+  }
+}
+/* End */
+@media screen and (min-width: 48rem) and (max-width: 64rem) {
+  nav {
+    padding: 1.875rem 3.125rem;
+  }
+  .😄 {
+    padding: 3.125rem 3.125rem 0 3.125rem;
+  }
+  .😅 {
+    display: block;
+    margin-left: -3.4375rem;
+  }
+  .🙂,
+  .😤,
+  .🙁,
+  .😠 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.25rem;
+  }
+  .😚,
+  .😛,
+  .😝,
+  .😎,
+  .🥳,
+  .😒,
+  .😖 {
+    padding: 6.25rem 3.125rem;
+  }
+  .😔:first-of-type,
+  .😣:first-of-type {
+    grid-column: 1 / span 2;
+  }
+  .😩 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .😡 {
+    margin-left: 3.125rem;
+  }
+}
+@media screen and (min-width: 64.0625rem) {
+  .😅 {
+    display: grid;
+  }
+  .😄 {
+    padding-bottom: 0;
+  }
+  .😅 img {
+    margin-left: -4.6875rem;
+  }
+  .🙂,
+  .😤,
+  .😠 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.25rem;
+  }
+  .🤯 {
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .😳 {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .😚 {
+    padding: 7.5rem 0;
+  }
+  .🥵 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 50rem;
+  }
+  .🥶 {
+    background-image: url("assets/images/vertical-shot-hispanic-male-carrying-basket-with-cherry-red-coffee-beans.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .😛 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .😱 {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .😝 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("assets/images/coffee-beans-background.jpg") no-repeat
+      center / cover;
+  }
+  .😱 .😜,
+  .😱 .🤪 {
+    color: #271c19;
+    text-align: center;
+  }
+  .😱 .😜 {
+    max-width: 40ch;
+    margin: 0 auto;
+  }
+  .😱 .🤪 {
+    max-width: 60ch;
+    margin: 0 auto 1.25rem auto;
+    font-weight: 400;
+  }
+  .😨 {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 7.5rem 0;
+  }
+  .🥳 {
+    height: 50rem;
+    display: flex;
+    align-items: center;
+  }
+  .😏 {
+    max-width: 20ch;
+    padding-left: 6.25rem;
+  }
+  .🙁 {
+    display: none;
+  }
+  .😞 {
+    display: block;
+    margin: 3.125rem auto 0 auto;
+  }
+  .😒,
+  .😥 {
+    padding: 7.5rem 0;
+  }
+  .😖 {
+    background: url("assets/images/contact-us-coffee-beans-background.jpg")
+      no-repeat center / cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  .😰 {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .😡 {
+    margin: 0 auto;
+  }
+  .😩 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .😩 img {
+    width: 100%;
+  }
+  .😆 {
+    margin-bottom: 3.125rem;
+  }
+  .😛 {
+    padding: 3.125rem;
+  }
+  .😥 .🤣,
+  .😖 .🤣 {
+    max-width: 50ch;
+    margin: 0 auto;
+  }
+  .hamburger {
+    display: none;
+  }
+  .😀 {
+    display: flex;
+    gap: 2.5rem;
+  }
+  .😀 a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: #fffffe;
+    font-weight: 800;
+  }
+  .modal-content {
+    max-height: 90%;
+  }
+  .underline-animation {
+    position: relative;
+    display: inline-block;
+  }
+  .underline-animation::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.125rem;
+    bottom: 0;
+    left: 0;
+    background-color: #fffffe;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .underline-animation:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+}
+/* The modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+  align-items: center;
+  justify-content: center;
+}
+.😓 {
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.😓 h1 {
+  font-family: "Poppins", sans-serif;
+  color: #271c19;
+}
+.😓 button {
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 6.25rem;
+  outline: none;
+  transition: all 0.3s;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  width: 80%;
+  overflow: auto;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+/* Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Fade Animation */
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#back-to-top {
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  display: none;
+  width: 3.75rem;
+  height: 3.75rem;
+  background-color: #ffc0ad;
+  color: #271c19;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 999;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+#back-to-top:hover {
+  background-color: #ff997a;
+}
+
+/* Menu Overlay */
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: #ffc0ad; /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 32px; /* 1.875rem top margin to avoid conflict with the close button on smaller screens */
+}
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 40px;
+  color: #271c19;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  word-break: break-all;
+}
