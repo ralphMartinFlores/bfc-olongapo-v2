@@ -35,7 +35,7 @@ const myCheckbox = document.getElementById("hamburgerCheckbox");
 const myDiv = document.getElementById("myNav");
 myCheckbox.addEventListener("change", function () {
   if (this.checked) {
-    myDiv.style.width = "75%";
+    myDiv.style.width = "80%";
   } else {
     myDiv.style.width = "0";
   }

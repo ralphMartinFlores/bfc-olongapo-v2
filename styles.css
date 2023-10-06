@@ -51,7 +51,7 @@ h6 {
 nav {
   background-color: #271c19;
   color: #fffffe;
-  padding: 2rem 1.5rem;
+  padding: 1.25rem;
 }
 .🤭 {
   max-width: 9.375rem;
@@ -71,31 +71,35 @@ nav {
   color: #fffffe;
   padding: 1.25rem 1.25rem 3.125rem 1.25rem;
 }
+.😁 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .😁 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
-  font-size: clamp(2.1875rem, 5vw, 3.125rem);
-  margin-bottom: 0.625rem;
+  font-size: clamp(2.1875rem, 5vw, 2.8125rem);
 }
 .😁 h2 {
   color: #fff3ec;
-  font-size: 1rem;
+  font-size: clamp(1rem, 2.5vw, 1.125rem);
   font-family: "Lora", sans-serif;
   font-weight: 400;
-  margin-bottom: 1.25rem;
 }
 .😆 {
-  padding: 0.625rem 1.875rem;
+  padding: .625rem 1.875rem;
   outline: none;
   background-color: #ffc0ad;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   border: none;
-  border-radius: 0.3125rem;
+  border-radius: .3125rem;
   cursor: pointer;
   transition: all 0.3s;
   color: #271c19;
   text-decoration: none;
+  width: fit-content;
 }
 .😆:hover,
 .😋:hover {
@@ -128,7 +132,7 @@ nav {
 }
 .🙃 {
   background-color: #271c19;
-  border-radius: 0.5rem;
+  border-radius: .5rem;
   margin-bottom: 1.25rem;
 }
 .😉 {
@@ -147,12 +151,12 @@ nav {
 .🥰 {
   background-color: #55423d;
   width: fit-content;
-  padding: 0.3125rem 1.25rem;
+  padding: .3125rem 1.25rem;
   border-radius: 6.25rem;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   color: #fffffe;
-  margin-top: 0.625rem;
+  margin-top: .625rem;
   margin-bottom: 1.25rem;
 }
 .😘 {
@@ -166,7 +170,7 @@ nav {
 .😙 {
   display: flex;
   align-items: center;
-  gap: 0.625rem;
+  gap: .625rem;
 }
 .😙 p {
   font-family: "Lora", sans-serif;
@@ -176,8 +180,8 @@ nav {
 .😋 {
   border: none;
   background-color: #ffc0ad;
-  padding: 0.625rem 1.25rem;
-  border-radius: 0.625rem;
+  padding: .625rem 1.25rem;
+  border-radius: .625rem;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   cursor: pointer;
@@ -194,7 +198,7 @@ nav {
   font-weight: 800;
   font-size: clamp(1.875rem, 5vw, 3.125rem);
   color: #fffffe;
-  margin-bottom: 0.625rem;
+  margin-bottom: .625rem;
 }
 .😛 p {
   font-family: "Lora", sans-serif;
@@ -231,15 +235,15 @@ nav {
 }
 .🧐 {
   background-color: #271c19;
-  border-radius: 0.625rem;
-  padding: 0.9375rem 0.9375rem 1.25rem 0.9375rem;
+  border-radius: .625rem;
+  padding: .9375rem .9375rem 1.25rem .9375rem;
   margin-bottom: 1.25rem;
 }
 .🤓 {
   font-family: "Lora", sans-serif;
   font-weight: 400;
   color: #fff3ec;
-  margin-top: 0.9375rem;
+  margin-top: .9375rem;
 }
 /* End */
 /* Proposition styles */
@@ -265,16 +269,16 @@ nav {
 }
 .😔 {
   background-color: #271c19;
-  border-radius: 0.625rem;
+  border-radius: .625rem;
   color: #fff3ec;
-  padding: 0.9375rem;
+  padding: .9375rem;
   margin-bottom: 1.25rem;
 }
 .😟 {
   font-family: "Lora", sans-serif;
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 0.625rem;
+  margin-bottom: .625rem;
 }
 .😕 {
   font-family: "Poppins", sans-serif;
@@ -288,10 +292,10 @@ nav {
 .😣 {
   display: flex;
   align-items: center;
-  gap: 0.9375rem;
-  border: 0.0625rem solid #e4e4e4;
-  padding: 0.9375rem;
-  border-radius: 0.625rem;
+  gap: .9375rem;
+  border: .0625rem solid #e4e4e4;
+  padding: .9375rem;
+  border-radius: .625rem;
   margin-bottom: 1.25rem;
 }
 .😣 a,
@@ -321,25 +325,25 @@ nav {
 }
 .🥺 img {
   margin: 0 auto;
-  margin-bottom: 0.625rem;
+  margin-bottom: .625rem;
 }
 .😢 {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 1.5625rem;
-  margin-bottom: 0.625rem;
+  margin-bottom: .625rem;
 }
 .😭 {
   font-family: "Lora", sans-serif;
   font-weight: 400;
-  font-size: 0.875rem;
+  font-size: .875rem;
   color: #fff3ec;
   text-decoration: none;
-  border-bottom: 0.125rem solid transparent;
+  border-bottom: .125rem solid transparent;
   transition: all 0.3s;
 }
 .😭:hover {
-  border-bottom: 0.125rem solid #fffffe;
+  border-bottom: .125rem solid #fffffe;
 }
 /* End */
 /* Hamburger menu button styles */
@@ -406,14 +410,10 @@ nav {
 /* End */
 @media screen and (min-width: 48rem) and (max-width: 64rem) {
   nav {
-    padding: 1.875rem 3.125rem;
+    padding: 3.125rem 3.125rem 1.5625rem 3.125rem;
   }
   .😄 {
-    padding: 3.125rem 3.125rem 0 3.125rem;
-  }
-  .😅 {
-    display: block;
-    margin-left: -3.4375rem;
+    padding: 3.125rem;
   }
   .🙂,
   .😤,
@@ -439,8 +439,8 @@ nav {
   .😩 {
     grid-template-columns: repeat(4, 1fr);
   }
-  .😡 {
-    margin-left: 3.125rem;
+  .modal-content {
+    max-height: 90%;
   }
 }
 @media screen and (min-width: 64.0625rem) {
@@ -448,10 +448,26 @@ nav {
     display: grid;
   }
   .😄 {
-    padding-bottom: 0;
+    position: relative;
+    height: calc(100vh - 4.6875rem);
+  }
+  .😁 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .😁 h1 {
+    max-width: 25ch;
+  }
+  .😁 h2 {
+    max-width: 50ch;
   }
   .😅 img {
-    margin-left: -4.6875rem;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    height: auto;
+    width: 50%;
   }
   .🙂,
   .😤,
@@ -463,9 +479,6 @@ nav {
   .🤯 {
     max-width: 80%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
   }
   .😳 {
     max-width: 80%;
@@ -477,7 +490,7 @@ nav {
   .🥵 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    min-height: 50rem;
+    min-height: 62.5rem;
   }
   .🥶 {
     background-image: url("assets/images/vertical-shot-hispanic-male-carrying-basket-with-cherry-red-coffee-beans.jpg");
@@ -596,7 +609,7 @@ nav {
     content: "";
     position: absolute;
     width: 100%;
-    height: 0.125rem;
+    height: .125rem;
     bottom: 0;
     left: 0;
     background-color: #fffffe;
