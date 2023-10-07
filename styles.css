@@ -449,7 +449,7 @@ nav {
   }
   .😄 {
     position: relative;
-    height: calc(100vh - 4.6875rem);
+    height: calc(80vh - 4.6875rem);
   }
   .😁 {
     position: absolute;
@@ -465,9 +465,9 @@ nav {
   .😅 img {
     position: absolute;
     bottom: 0;
-    right: 5%;
+    right: 10%;
     height: auto;
-    width: 50%;
+    width: 40%;
   }
   .🙂,
   .😤,
